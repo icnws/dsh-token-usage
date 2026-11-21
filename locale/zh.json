@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Token 用量总览",
+    "description": "自动汇总本机所有会话的 token 用量，支持按会话/模型查看、时间筛选和导出，从左侧边栏常驻入口打开。"
+  },
+  "sessions.title": "按会话",
+  "sessions.caption": "按合计用量排序，共 {count} 个会话",
+  "sessions.empty": "还没有会话产生 token 用量。",
+  "sessions.sort.total": "按总消耗",
+  "sessions.sort.recent": "按最近活动",
+  "sessions.search": "搜索会话",
+  "sessions.searchPlaceholder": "搜索会话标题或路径…",
+  "sessions.page": "第 {page} 页，共 {total} 页",
+  "sessions.prev": "上一页",
+  "sessions.next": "下一页"
+}

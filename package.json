@@ -1,0 +1,53 @@
+{
+  "name": "dsh-token-usage",
+  "version": "0.2.0",
+  "private": false,
+  "description": "Global token usage overview with session, model leaderboard, filtering, and CSV export for local DSH sessions.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "harness",
+    "token",
+    "usage",
+    "stats",
+    "plugin"
+  ],
+  "author": "Wayne",
+  "license": "MIT",
+  "homepage": "https://github.com/icnws/dsh-token-usage#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icnws/dsh-token-usage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/icnws/dsh-token-usage/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Editor / OS artifacts
+.idea
+.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Package manager artifacts
+node_modules
+.pnpm
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Local DSH development artifacts
+.dsh
+.ds-harness-remote
+created-plugins
+logs
+storages
+sessions
+profiles
+attachments
+memories

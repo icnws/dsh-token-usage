@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Token usage overview",
+    "description": "Aggregates token usage across every local session, with per-session totals, per-day trends, and a model leaderboard, opened from a left-sidebar entry."
+  },
+  "sessions.title": "By session",
+  "sessions.caption": "Sorted by total usage, {count} sessions",
+  "sessions.empty": "No session has used tokens yet.",
+  "sessions.sort.total": "Sort by total",
+  "sessions.sort.recent": "Sort by recent",
+  "sessions.search": "Search sessions",
+  "sessions.searchPlaceholder": "Search by session title or path…",
+  "sessions.page": "Page {page} of {total}",
+  "sessions.prev": "Previous",
+  "sessions.next": "Next"
+}

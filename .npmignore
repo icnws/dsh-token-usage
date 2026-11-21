@@ -1,0 +1,63 @@
+# Dev / editor artifacts
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS / filesystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git
+.git
+.gitignore
+
+# Tests / tooling not needed at runtime
+tests
+test
+coverage
+.nyc_output
+jest.config.*
+vitest.config.*
+playwright.config.*
+.prettierrc*
+eslint.config.*
+.stylelintrc*
+commitlint.config.*
+
+# Package manager artifacts
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+node_modules
+.pnpm
+.npm
+
+# Build / dist (source plugin ships as built JS)
+dist
+build
+out
+.next
+.cache
+tmp
+temp
+
+# Local DSH artifacts created during development
+.created-plugins
+created-plugins
+.dsh
+.ds-harness-remote
+logs
+storages
+sessions
+profiles
+attachments
+memories
+
+# Docs not needed for install
+docs
+CONTRIBUTING.md
+.travis.yml
+Jenkinsfile
